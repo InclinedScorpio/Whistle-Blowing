@@ -1,0 +1,244 @@
+body{
+ background:url("http://booksplatform.net/wp-content/uploads/3333-1.jpg");
+ background-size:cover;
+ background-repeat: no-repeat;
+ height:100%;
+ 
+}
+
+
+* {
+  box-sizing: border-box;
+}
+textarea{
+	top:-90px;
+	position:relative;
+	left:10em;
+	width:30%;
+}
+
+
+#feedbackid{
+
+		
+		position: relative;
+		top:-7%;
+		
+		right:7%;
+	border:0.2px solid white;
+	background-color: #d9d9d9; 		
+	font-weight: bolder;
+	font-style:italic;
+	font-size: 1.6em;
+	text-decoration: underline;
+	border-style: outset;
+	
+	float:right;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+
+
+}
+
+#blur{
+	font-size: 35px;
+	filter: blur(1.6px);
+}
+
+#hera{
+	position:relative;
+	left:2em;
+	height:60px;
+	width:40%;
+	color:white;
+	text-align: center;
+	margin: 0px auto;
+	background-color: grey;
+	border-top-style: dashed;
+	
+}
+#topone{
+
+	position:sticky;
+	top:0px;
+	font-size: 3em;
+	text-align: center;
+	font-weight: bolder;
+	font-style: italic;
+	color: white;
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-shadow: 4px 4px #558ABB;
+	font-family: Impact, Charcoal, sans-serif;
+	}
+#toptwo{
+
+
+	font-size:1em;
+	font-weight: bolder;
+	text-align: center;
+	color: black;
+	border-radius: 2em;
+	border-collapse: collapse
+	border-color:black;
+	background-color: #ff6666;
+	margin:0px 300px 0px 300px;
+}
+#toptwo:hover{
+	border-color: #993366;
+}
+
+.ancherha{
+	position: relative;
+	left:140px;
+  font-size: 45px;
+  color: white;
+}
+li{
+background:url("https://thumbs.dreamstime.com/b/illustration-red-scorpion-mascot-cartoon-character-107771755.jpg") 1%;
+  list-style:none;
+  padding-left:1px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 50px;
+
+}
+#LI-simple-link{
+position:fixed;
+font-size:14px;
+color:grey;
+
+}
+#topthree{
+ font-style: italic;
+ font-family: Noto Sans;
+ font-variant-caps: titling-case;
+ color: red;
+ font-weight: 800;
+ text-align: center;
+ font-size: 1em;
+text-decoration: underline;
+font-family: georgia,sans-serif;
+}
+#categoryha{
+ font-size:50px;
+ color:#ff3333;
+ background-color:white;
+ margin-left: 130px;
+ margin-right:870px;
+
+
+}
+.blinking{
+
+*/font-size:50px;
+
+ color:red;
+    animation:blinkingText 3s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #000;    }
+    49%{    color: transparent; }
+    50%{    color: #000; }
+    99%{    color:transparent;  }
+    100%{   color: #000;    }
+}
+#cat{
+	 font-size:50px;
+ color:#D9D8DE;
+ background-color:none;
+ text-decoration: underline overline;
+/* margin-left: 130px;
+ margin-right:870px;*/
+}
+.peat{
+	margin-top: 0px;
+	border:0.2px solid white;
+	background-color: #d9d9d9; 		
+	font-weight: bolder;
+	font-style:italic;
+	font-size: 1.6em;
+	text-decoration: underline;
+	border-style: outset;
+	width:50%;
+
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+
+}
+.dopic{
+	float:left;
+}
+
+
+#bubu{
+margin-left: 50px;
+ margin-right:700px;
+ font-size: 3em;
+}
+
+#reality{
+	margin-bottom: 0px;
+	background-color: red;
+	text-align: center;
+	font-size: 30px;
+	color:white;
+	opacity: 0.5;
+}
+#reality:hover{
+ text-transform:uppercase;
+ color:black;
+ font-weight:bold;
+ opacity:0.8;
+
+}
+#youtubeha{
+  border:5px;
+  border-style: solid;
+  border-image: url("http://backgroundcheckall.com/wp-content/uploads/2017/12/dark-red-and-black-background-10639.png") 30 repeat;
+  margin-right: 3em;
+border-size:cover;
+  
+}
+li a:visited{
+	background-color:violet;
+}
+li a:hover {
+  background-color: red;
+  text-decoration: none;
+  font-size:49px;
+}
+li a:hover{
+	color: black;
+}
+#topone:hover{
+	
+  background-color:none;
+
+  text-decoration: underline;
+}
+#topthree:hover:after{
+	content: " -> THE REALITY";
+	font-size: 1em;
+}
+::-webkit-scrollbar {
+  width: 30px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: lightgrey; 
+  margin-right:10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: grey; 
+  margin-right:10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: black; 
+  margin-right:10px;
+}

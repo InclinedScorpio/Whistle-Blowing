@@ -1,0 +1,102 @@
+
+body{
+
+		background:url("https://www.intheblack.com/~/media/intheblack/allimages/magazine-2018/07-july/man-shadow-holding-gun.jpg");
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		height:100%;
+	
+	}
+		.container{
+			border:10px ridge white;
+			display:grid;
+			width:600px;
+			margin:14% 2px;
+			grid-template-rows: 100px 70px;
+			grid-template-columns: 1f 1f;
+			position:relative;
+		/*background:url("http://www.wallpapereast.com/static/images/iphone-wallpaper-2011-june-13.jpg");*/
+			grid-row-gap: 80px;
+			grid-column-gap: 80px;
+			bottom:60px;
+			
+			}
+			.container:hover{
+				border-right-color: black;
+				border-left-color: black;
+			}
+		h1{
+			margin:3px 10%;
+			color:red;
+			text-decoration: underline;
+			text-shadow: 4px 4px black;
+		}
+		h1:hover{
+			color:orange;
+		}
+
+		.logintitle{
+			background:url("https://psopk.com/files/whistle_blowing_header.jpg");
+			background-repeat: no-repeat;
+			background-position: center;
+			height:200%;
+			background-size: cover;
+			grid-column:1/ span 2;
+			grid-row: 1/2;
+			text-align: center;
+			font-weight: bolder;
+			
+		}
+		.loginhere{
+			background-color:white;
+			grid-row: 2/3;
+			text-align: center;
+			color:black;
+			font-weight: bold;
+			font-size: 1.5em;
+			
+		}
+		.loginhere:hover{
+			background-color: lightgrey;
+		}
+		.loginwarning{
+		    background-color:white;
+		    color:black;
+			text-align: center;
+			font-weight: bold;
+			font-size: 1.5em;
+		
+		}
+		.loginwarning:hover{
+			background-color: lightgrey;
+		}
+		button{
+			width:240px;			
+			color:black;
+			background-color: pink;
+			height:30px;
+			font-weight: bolder;
+			font-size: 22px;
+		}
+		button:hover{
+			background-color: #ff8080;
+		}
+		.checkha{
+					border:6px outset ;
+					
+			color:white;
+			background-color: black;
+			height:20px;
+			font-weight: bolder;
+			font-size: 20px;
+			position:absolute;
+			bottom:0px;
+			left:10em;
+
+		}
+		.checkha:hover{
+			
+			color:red	;
+		}
+		

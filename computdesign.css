@@ -1,0 +1,23 @@
+body{
+	font-size: 27pt;
+	font-family: sans-serif;
+	font-weight: bolder;
+
+}
+.container{
+	margin:0px;
+	padding:5px;
+font-size: 22pt;
+
+	background:url("formimage.jpg") ;
+	margin-bottom: 30px;
+ 
+}
+.navbar{
+	top:-30px;
+}
+.jumbotron{
+	background:url("jumboimage.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+}
